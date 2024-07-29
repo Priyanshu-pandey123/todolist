@@ -36,3 +36,45 @@
     transform: rotate(360deg);
   }
 }
+
+#input{
+  margin-top: 20px;
+  margin-left: 30px;
+  height: 30px;
+  padding: 10px;
+  background-color: red;
+}
+
+.App {
+  text-align: center;
+}
+
+input[type="text"] {
+  margin: 5px;
+  padding: 5px;
+}
+
+button {
+  margin: 5px;
+  padding: 5px;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+li {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 5px;
+}
+
+li input[type="checkbox"] {
+  margin-right: 10px;
+}
+
+li button {
+  margin-left: 5px;
+}
